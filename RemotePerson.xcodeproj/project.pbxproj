@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FB86A7E1EC727EA00153435 /* Persone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB86A7D1EC727EA00153435 /* Persone.swift */; };
+		8FB86A801EC7450700153435 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB86A7F1EC7450700153435 /* Date+Format.swift */; };
 		8FF371EA1EC6F54A005E354A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF371E91EC6F54A005E354A /* AppDelegate.swift */; };
-		8FF371EC1EC6F54A005E354A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF371EB1EC6F54A005E354A /* ViewController.swift */; };
 		8FF371EF1EC6F54A005E354A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF371ED1EC6F54A005E354A /* Main.storyboard */; };
 		8FF371F11EC6F54A005E354A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF371F01EC6F54A005E354A /* Assets.xcassets */; };
 		8FF371F41EC6F54A005E354A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF371F21EC6F54A005E354A /* LaunchScreen.storyboard */; };
+		8FF371FC1EC71CBC005E354A /* RemotePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF371FB1EC71CBC005E354A /* RemotePersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FF371E61EC6F54A005E354A /* Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB86A7D1EC727EA00153435 /* Persone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persone.swift; sourceTree = "<group>"; };
+		8FB86A7F1EC7450700153435 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		8FF371E61EC6F54A005E354A /* RemotePerson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemotePerson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF371E91EC6F54A005E354A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FF371EB1EC6F54A005E354A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FF371EE1EC6F54A005E354A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FF371F01EC6F54A005E354A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FF371F31EC6F54A005E354A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FF371F51EC6F54A005E354A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF371FB1EC71CBC005E354A /* RemotePersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemotePersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		8FF371DD1EC6F54A005E354A = {
 			isa = PBXGroup;
 			children = (
-				8FF371E81EC6F54A005E354A /* Parser */,
+				8FF371E81EC6F54A005E354A /* RemotePerson */,
 				8FF371E71EC6F54A005E354A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,32 @@
 		8FF371E71EC6F54A005E354A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FF371E61EC6F54A005E354A /* Parser.app */,
+				8FF371E61EC6F54A005E354A /* RemotePerson.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FF371E81EC6F54A005E354A /* Parser */ = {
+		8FF371E81EC6F54A005E354A /* RemotePerson */ = {
 			isa = PBXGroup;
 			children = (
 				8FF371E91EC6F54A005E354A /* AppDelegate.swift */,
-				8FF371EB1EC6F54A005E354A /* ViewController.swift */,
+				8FF371FB1EC71CBC005E354A /* RemotePersonViewController.swift */,
+				8FB86A7D1EC727EA00153435 /* Persone.swift */,
+				8FB86A7F1EC7450700153435 /* Date+Format.swift */,
 				8FF371ED1EC6F54A005E354A /* Main.storyboard */,
 				8FF371F01EC6F54A005E354A /* Assets.xcassets */,
 				8FF371F21EC6F54A005E354A /* LaunchScreen.storyboard */,
 				8FF371F51EC6F54A005E354A /* Info.plist */,
 			);
-			path = Parser;
+			path = RemotePerson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FF371E51EC6F54A005E354A /* Parser */ = {
+		8FF371E51EC6F54A005E354A /* RemotePerson */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FF371F81EC6F54A005E354A /* Build configuration list for PBXNativeTarget "Parser" */;
+			buildConfigurationList = 8FF371F81EC6F54A005E354A /* Build configuration list for PBXNativeTarget "RemotePerson" */;
 			buildPhases = (
 				8FF371E21EC6F54A005E354A /* Sources */,
 				8FF371E31EC6F54A005E354A /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Parser;
-			productName = Parser;
-			productReference = 8FF371E61EC6F54A005E354A /* Parser.app */;
+			name = RemotePerson;
+			productName = RemotePerson;
+			productReference = 8FF371E61EC6F54A005E354A /* RemotePerson.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FF371E11EC6F54A005E354A /* Build configuration list for PBXProject "Parser" */;
+			buildConfigurationList = 8FF371E11EC6F54A005E354A /* Build configuration list for PBXProject "RemotePerson" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FF371E51EC6F54A005E354A /* Parser */,
+				8FF371E51EC6F54A005E354A /* RemotePerson */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF371EC1EC6F54A005E354A /* ViewController.swift in Sources */,
+				8FB86A7E1EC727EA00153435 /* Persone.swift in Sources */,
+				8FF371FC1EC71CBC005E354A /* RemotePersonViewController.swift in Sources */,
+				8FB86A801EC7450700153435 /* Date+Format.swift in Sources */,
 				8FF371EA1EC6F54A005E354A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +270,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KFY32PE2QK;
-				INFOPLIST_FILE = Parser/Info.plist;
+				INFOPLIST_FILE = RemotePerson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iKing.Parser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iKing.RemotePerson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,9 +283,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KFY32PE2QK;
-				INFOPLIST_FILE = Parser/Info.plist;
+				INFOPLIST_FILE = RemotePerson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iKing.Parser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iKing.RemotePerson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FF371E11EC6F54A005E354A /* Build configuration list for PBXProject "Parser" */ = {
+		8FF371E11EC6F54A005E354A /* Build configuration list for PBXProject "RemotePerson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FF371F61EC6F54A005E354A /* Debug */,
@@ -295,13 +303,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FF371F81EC6F54A005E354A /* Build configuration list for PBXNativeTarget "Parser" */ = {
+		8FF371F81EC6F54A005E354A /* Build configuration list for PBXNativeTarget "RemotePerson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FF371F91EC6F54A005E354A /* Debug */,
 				8FF371FA1EC6F54A005E354A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
