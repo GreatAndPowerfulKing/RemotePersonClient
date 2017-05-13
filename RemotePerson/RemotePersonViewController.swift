@@ -42,22 +42,33 @@ class RemotePersonViewController: UIViewController {
 			}
 			
 			guard error == nil, let data = data else {
-				print("Error occured while loading data")
-				return
-			}
-			
-			guard let jsonObject = try? JSONSerialization.jsonObject(with: data), let json = jsonObject as? [String: Any] else {
-				print("No JSON data")
-				return
-			}
-			
-			if let person = Person(json: json) {
 				DispatchQueue.main.async {
-					self?.person = person
+					self?.showError(message: "Error occured while loading data.")
 				}
+				return
+			}
+			
+			guard let jsonObject = try? JSONSerialization.jsonObject(with: data),
+			      let json = jsonObject as? [String: Any],
+			      let person = Person(json: json) else {
+					
+				DispatchQueue.main.async {
+					self?.showError(message: "No valid JSON data.")
+				}
+				return
+			}
+			
+			DispatchQueue.main.async {
+				self?.person = person
 			}
 			
 		}.resume()
+	}
+	
+	func showError(message: String) {
+		let alert = UIAlertController(title: "Something gone wrong!", message: message, preferredStyle: .alert)
+		alert.addAction(UIAlertAction(title: "OK", style: .cancel))
+		present(alert, animated: true)
 	}
 	
 }
