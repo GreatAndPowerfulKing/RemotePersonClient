@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FB86A7E1EC727EA00153435 /* Persone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB86A7D1EC727EA00153435 /* Persone.swift */; };
+		8FB86A7E1EC727EA00153435 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB86A7D1EC727EA00153435 /* Person.swift */; };
 		8FB86A801EC7450700153435 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB86A7F1EC7450700153435 /* Date+Format.swift */; };
 		8FF371EA1EC6F54A005E354A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF371E91EC6F54A005E354A /* AppDelegate.swift */; };
 		8FF371EF1EC6F54A005E354A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF371ED1EC6F54A005E354A /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FB86A7D1EC727EA00153435 /* Persone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persone.swift; sourceTree = "<group>"; };
+		8FB86A7D1EC727EA00153435 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8FB86A7F1EC7450700153435 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
 		8FF371E61EC6F54A005E354A /* RemotePerson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemotePerson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF371E91EC6F54A005E354A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				8FF371E91EC6F54A005E354A /* AppDelegate.swift */,
 				8FF371FB1EC71CBC005E354A /* RemotePersonViewController.swift */,
-				8FB86A7D1EC727EA00153435 /* Persone.swift */,
+				8FB86A7D1EC727EA00153435 /* Person.swift */,
 				8FB86A7F1EC7450700153435 /* Date+Format.swift */,
 				8FF371ED1EC6F54A005E354A /* Main.storyboard */,
 				8FF371F01EC6F54A005E354A /* Assets.xcassets */,
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB86A7E1EC727EA00153435 /* Persone.swift in Sources */,
+				8FB86A7E1EC727EA00153435 /* Person.swift in Sources */,
 				8FF371FC1EC71CBC005E354A /* RemotePersonViewController.swift in Sources */,
 				8FB86A801EC7450700153435 /* Date+Format.swift in Sources */,
 				8FF371EA1EC6F54A005E354A /* AppDelegate.swift in Sources */,
